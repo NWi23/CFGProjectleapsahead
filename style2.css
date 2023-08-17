@@ -1,0 +1,77 @@
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: "Anton", sans-serif;
+    margin: 0;
+    background:  	#122025;
+    color: #f9f9f3;
+}
+    
+header {text-align: center;
+font-family: "Anton", sans-serif;
+color: #ff984f;
+text-size-adjust: 30pt;
+font-size: 30pt;
+background: #182930 ;}
+
+ol,ul {
+	list-style: none;
+}
+
+#mainMenu {
+	margin-left: 220px;
+	width:900px;
+	font-family: sans-serif;
+}
+#mainMenu li {
+	display:block;
+	width: 175px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+}
+
+#mainMenu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:#dfebed;
+	color: #122025;
+}
+
+#mainMenu a:hover {
+	background-color:#f78536;
+	color:#fff;
+}
+
+#aboutus {display: float;
+text-align: center;
+font-family: arial;
+color: #dfebed;
+padding: 0;
+margin:0}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 60px;
+    background-color: #122025;
+    padding-left: 100px;
+    padding-top: 50px
+  }
+  
+  .grid-item {
+      background-color: #f78536(255, 255, 255, 0.8);
+      border: 1px solid #f78536(0, 0, 0, 0.8);
+      padding: 0px;
+      font-size: 20px;
+      text-align: left;
+      font-family: 'Antonio', sans-serif;
+  }
+
+.footer {
+    padding: 20px;
+    font-family: 'Antonio', sans-serif;
+    text-align: center;
+    color: #dfebed;
+}

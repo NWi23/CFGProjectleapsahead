@@ -1,0 +1,73 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: IBM Plex Sans;
+    font-size: 12pt;
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    color: #f9f9f3;
+  }
+  
+  h1,h2,p{
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  h1{
+    font-color: black;
+    text: bold;
+  }
+  
+  p{
+    margin: 2em auto;
+    padding: 0 6.5em;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select{
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color:#ff9a3c;
+    min-width: 300px;
+    color: white;
+  }
+  
+  .questions {
+    margin: 2em 2em;
+    padding: 0 6.5em;
+  }
+  
+  .map {
+    display: flex;
+    padding: 2em 2em;
+    margin: 2em 8em;
+  }
